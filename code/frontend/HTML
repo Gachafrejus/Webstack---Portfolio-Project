@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTO FINDER</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>RESTO FINDER</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Jollof Rice</h3>
+                <p>African-style spicy rice served with chicken.</p>
+                <button onclick="addToCart('Jollof Rice')">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <h3>Egusi Soup</h3>
+                <p>Delicious melon seed soup served with pounded yam.</p>
+                <button onclick="addToCart('Egusi Soup')">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <h3>Grilled Fish</h3>
+                <p>Freshly grilled fish served with plantains.</p>
+                <button onclick="addToCart('Grilled Fish')">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At RESTO FINDER, we celebrate the richness of African cuisine. Enjoy authentic flavors and a modern dining experience!</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 RESTO FINDER. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
